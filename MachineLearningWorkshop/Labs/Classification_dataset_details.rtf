@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red29\green38\blue42;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c14902\c19608\c21961;}
+\margl1440\margr1440\vieww14580\viewh12300\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+1. Title: Wisconsin Diagnostic Breast Cancer (WDBC)\
+\
+2. What we want to achieve: predicting field 2, diagnosis: B = benign, M = malignant for every given datapoint\
+\
+\
+3. Number of instances: 569 \
+\
+4. Number of attributes: 32 (ID, diagnosis, 30 real-valued input features)\
+\
+5. Attribute information\
+\
+1) ID number\
+2) Diagnosis (M = malignant, B = benign)\
+3-32)\
+\
+Ten real-valued features are computed for each cell nucleus:\
+\
+	a) radius (mean of distances from center to points on the perimeter)\
+	b) texture (standard deviation of gray-scale values)\
+	c) perimeter\
+	d) area\
+	e) smoothness (local variation in radius lengths)\
+	f) compactness (perimeter^2 / area - 1.0)\
+	g) concavity (severity of concave portions of the contour)\
+	h) concave points (number of concave portions of the contour)\
+	i) symmetry \
+	j) fractal dimension ("coastline approximation" - 1)\
+\
+Several of the papers listed above contain detailed descriptions of\
+how these features are computed. \
+\
+The mean, standard error, and "worst" or largest (mean of the three\
+largest values) of these features were computed for each image,\
+resulting in 30 features.  For instance, field 3 is Mean Radius, field\
+13 is Radius SE, field 23 is Worst Radius.\
+\
+All feature values are recoded with four significant digits.\
+\
+6. Missing attribute values: none\
+\
+7. Class distribution: 357 benign, 212 malignant\
+\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf3 \ul To learn mode about the data set:\
+{\field{\*\fldinst{HYPERLINK "https://www.google.com/url?q=https%3A%2F%2Farchive.ics.uci.edu%2Fml%2Fdatasets%2FBreast%2BCancer%2BWisconsin%2B%28Diagnostic%29&sa=D&sntz=1&usg=AFQjCNHrvIc5mspxZmXMxRwMsBWHHne29A"}}{\fldrslt \uc0\u8234 https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)}}\cf2 \ulnone \
+}
